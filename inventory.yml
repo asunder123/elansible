@@ -1,0 +1,29 @@
+[hosts]
+ localhost
+ #172.0.0.1
+ #172.0.0.2
+ #172.0.0.4
+ #172.0.0.3
+ #esdata1
+ #esdata2
+ #esdata3
+ #escoord1
+ #escoord2
+ #esmaster1
+ #esmaster2
+ #esmaster3
+[data]
+localhost
+ #esdata1
+ #esdata2
+ #esdata3
+[masters]
+ localhost
+# 172.0.0.3
+#esmaster1
+#esmaster2
+#esmaster3
+[coordinating]
+ localhost
+ #escoord1
+ #escoord2
